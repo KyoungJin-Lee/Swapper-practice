@@ -37,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kyoungjin-lee.github.io/swapper-practice",
+  "homepage": "https://kyoungjin-lee.github.io/swapper-practice/build",
   "devDependencies": {
     "css-loader": "^6.7.1"
   }
