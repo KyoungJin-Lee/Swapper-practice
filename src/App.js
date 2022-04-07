@@ -14,7 +14,7 @@ function App() {
       <Connect />
       <SwapFrom />
       <SwapTo />
-      
+      <Footer />
     </div>
 
   );

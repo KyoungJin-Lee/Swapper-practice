@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Router } from 'express';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { Router } from 'express';
+//import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    {/* // <Router basename={process.env.PUBLIC_URL}> */}
       <App />
-    </Router>
+    {/* </Router>, */}
   </React.StrictMode>,
   document.getElementById('root')
 );
