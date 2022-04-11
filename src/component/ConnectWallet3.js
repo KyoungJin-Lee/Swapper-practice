@@ -2,11 +2,11 @@ import React from "react";
  import { useEffect, useState } from "react";
  import { useMetamask }         from "use-metamask";
 // // you can use any web3 interface
- //import { ethers } from "ethers";
- import Web3 from "web3";
+//import { ethers } from "ethers";
+//import Web3 from "web3";
 
 function ConnectWallet() {
-    const forwarderOrigin = 'http://localhost:3030';
+    const forwarderOrigin = 'http://localhost:3000/swapper-practice';
 
 const initialize = () => {
   //Basic Actions Section

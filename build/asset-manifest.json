@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/swapper-practice/static/css/main.7a0a908c.css",
-    "main.js": "/swapper-practice/static/js/main.275d55aa.js",
+    "main.css": "/swapper-practice/static/css/main.b9fab0b8.css",
+    "main.js": "/swapper-practice/static/js/main.fb4db284.js",
     "static/js/787.0bfcfdb5.chunk.js": "/swapper-practice/static/js/787.0bfcfdb5.chunk.js",
     "static/media/icon.svg": "/swapper-practice/static/media/icon.7f6bffdc0cc4c94a9d7446c9204e10e3.svg",
     "index.html": "/swapper-practice/index.html",
-    "main.7a0a908c.css.map": "/swapper-practice/static/css/main.7a0a908c.css.map",
-    "main.275d55aa.js.map": "/swapper-practice/static/js/main.275d55aa.js.map",
+    "main.b9fab0b8.css.map": "/swapper-practice/static/css/main.b9fab0b8.css.map",
+    "main.fb4db284.js.map": "/swapper-practice/static/js/main.fb4db284.js.map",
     "787.0bfcfdb5.chunk.js.map": "/swapper-practice/static/js/787.0bfcfdb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a0a908c.css",
-    "static/js/main.275d55aa.js"
+    "static/css/main.b9fab0b8.css",
+    "static/js/main.fb4db284.js"
   ]
 }
