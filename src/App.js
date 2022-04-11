@@ -6,6 +6,9 @@ import ConnectSig from './component/ConnectSig';
 import SwapFrom from './component/SwapFrom';
 import SwapTo from './component/SwapTo';
 import Footer from './component/Footer';
+import Responsive from './component/responsive/Responsive';
+// import MediaQuery from 'react-responsive';
+
 
 // import { useEffect, useState } from "react";
 // import { useMetamask }         from "use-metamask";
@@ -17,6 +20,8 @@ function App() {
   
   return (
     <div>
+      {/* <MediaQuery maxWidth={767}>
+      </MediaQuery> */}
       <Header />
       <ConnectSig />
       <SwapFrom />

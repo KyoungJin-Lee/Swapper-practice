@@ -3,7 +3,7 @@ li{list-style-type:none;}
 a:link, a:visited{text-decoration:none; color:#000;}
 
 body{
-    background-color:#efefef;
+    background-color:#eee;
 }
 
 .nav{
@@ -114,10 +114,26 @@ body{
     line-height: 50px;
 }
 
+.footer .info span{
+    font-size:12px;
+    padding-right:10px;
+}
+
+.footer .info span img{
+    padding-right:3px;
+    vertical-align: middle;
+    width:20px;
+    height:20px;
+}
 .footer ul{
     display:flex;
     position:absolute;
     right:150px;
+}
+
+.footer ul li img{
+    vertical-align: middle;
+    padding-right:5px;
 }
 
 .footer select{
@@ -125,3 +141,11 @@ body{
     right:2%;
     top:20px;
 }
+
+
+/* @media all (max-width:768px){
+    .footer .info{
+        display:none;
+    }
+
+} */

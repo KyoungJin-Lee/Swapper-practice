@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <MetamaskStateProvider>
       <App />
-    </MetamaskStateProvider>,
+    </MetamaskStateProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

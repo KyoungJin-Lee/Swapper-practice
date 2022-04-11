@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Fragment } from "react";
 import { MetaMaskButton } from "rimble-ui";
-import Web3 from "web3";
-import web3 from './Web3';
+//import Web3 from "web3";
+//import web3 from './Web3';
 import MyComponent from "./MyComponent";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -219,4 +219,4 @@ class MetaMaskLoginButton extends Component {
   }
 }
 
-// export default MetaMaskLoginButton;
+export default MetaMaskLoginButton;

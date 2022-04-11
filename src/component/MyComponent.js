@@ -1,17 +1,17 @@
 
    
 import React, { Component } from 'react';
-//import isLoginMetaMask from './components/isLoginMetaMask';
-//import isMetaMask from './components/isMetaMask'
-//import  isDesiredNetwork  from './components/isDesiredNetwork'
-import Login from './components/Login'
+import isLoginMetaMask from './isLoginMetaMask';
+import isMetaMask from './isMetaMask';
+import isDesiredNetwork from './isDesiredNetwork';
+import Login from './Login';
 
 class MyComponent extends Component {
     components = {
-        b: isLoginMetaMask,
+        b:isLoginMetaMask,
         a:isMetaMask,
         c:isDesiredNetwork,
-        d:Login
+        d:Login //Login
     };
     render() {
        const TagName = this.components[this.props.tag || 'a'];
