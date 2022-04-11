@@ -1,12 +1,13 @@
 import React from 'react';
 import '../style/index.css';
+import imgUrl from '../img/icon.svg';
 
 function SwapFrom() {
     return(
         <div className="swap">
             <h2>Swap From</h2>
             <p>
-                <a>O</a>
+                <img className="swapIcon" src={imgUrl} alt="Tokamak Network"/>
                 <select>
                     <option selected value="ton">TON</option>
                     <option value="wton">WTON</option>

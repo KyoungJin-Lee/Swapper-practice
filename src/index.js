@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import { Router } from 'express';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import { MetamaskStateProvider } from "use-metamask";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Router basename={process.env.PUBLIC_URL}> */}
+    <MetamaskStateProvider>
       <App />
-    {/* </Router>, */}
+    </MetamaskStateProvider>,
   </React.StrictMode>,
   document.getElementById('root')
 );
