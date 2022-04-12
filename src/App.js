@@ -9,7 +9,6 @@ import Footer from './component/Footer';
 import Responsive from './component/responsive/Responsive';
 // import MediaQuery from 'react-responsive';
 
-
 // import { useEffect, useState } from "react";
 // import { useMetamask }         from "use-metamask";
 // // you can use any web3 interface
